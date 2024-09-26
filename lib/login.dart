@@ -46,10 +46,16 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   height: 200,
                   width: 100,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.indigo
+                  child: Image.asset(
+                    'assets/img_3.png',
+                    width: MediaQuery.of(context).size.width * 0.1,
+                    height: MediaQuery.of(context).size.height * 0.05,
+                    fit: BoxFit.contain,
                   ),
+                  // decoration: BoxDecoration(
+                  //   shape: BoxShape.circle,
+                  //   color: Colors.indigo
+                  // ),
                 ),
               ),
                 Text('Welcome',
