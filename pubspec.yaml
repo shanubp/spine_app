@@ -44,8 +44,8 @@ dev_dependencies:
 
 flutter_icons:
   android: true
-  image_path: 'assets/img_2.png'
-  adaptive_icon_foreground: 'assets/img_2.png'
+#  image_path: 'assets/img_2.png'
+#  adaptive_icon_foreground: 'assets/img_2.png'
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
